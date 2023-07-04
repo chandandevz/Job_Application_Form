@@ -1,0 +1,112 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+   background-color: #ccc;
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.main{
+    background-color:white;
+    min-height: 450px;
+    padding:12px;
+    display: flex;
+    box-shadow: 4px 4px 5px rgba(0,0,0,.5);
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    position: relative;
+}
+
+.head-text{
+    position:absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 12px;
+}
+
+.form-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.form-items1{
+    display:flex;
+    flex-direction: column;
+    margin: 5px 5px;
+}
+
+.form-items1 input,select{
+    width:150px;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-items2{
+    display: grid;
+    grid-column: span 2/3;
+}
+.form-items2 textarea{
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+}
+
+.form-items2 textarea::placeholder{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.form-items3{
+    display:flex;
+    flex-direction: column;
+    margin: 5px 5px;
+}
+
+.form-items3 input,select{
+    width:150px;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+}
+
+.form-btn{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 20px;
+}
+
+.form-btn button{
+    background-color: red;
+    color:white;
+    font-size: 18px;
+    padding: 6px 10px;
+    font-weight: 500;
+    border: none;
+    border-radius:4px;
+}
+
+.form-box input::placeholder{
+    font-size: 12px;
+    font-weight: 350;
+}
+
+.form-box label{
+    margin: 5px;
+    font-size: 10px;
+}
+
+.form-box textarea:focus, input:focus{
+    outline: 1px solid #5597ff;
+}
