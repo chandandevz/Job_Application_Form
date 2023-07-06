@@ -43,6 +43,14 @@ body{
     font-size: 12px;
 }
 
+.head-underline{
+    display:block;
+    height:2px;
+    width:100%;
+    background-color:white;
+}
+
+
 input,textarea{
     border:  solid white;
     background-color: transparent;
