@@ -20,6 +20,7 @@ body{
    background-size: cover;
    background-position: center;*/
    background: linear-gradient(145deg, #15f5ff 20%,#716aff 80%);
+   font-family:sans-serif;
 }
 
 .main{
