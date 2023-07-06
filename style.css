@@ -121,11 +121,12 @@ textarea::placeholder,input::placeholder,label,.head-text{
     font-weight: 500;
     border: none;
     border-radius:4px;
-    transition: .3s ease-in;
+    transition: transform .3s ease-in;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.5);
     }
 
 .form-btn button:hover{
-    transform: rotate(10deg);
+    transform: scale(1.5);
     transition: .3s ease-out;
     }
 
