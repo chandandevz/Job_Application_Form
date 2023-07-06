@@ -44,14 +44,6 @@ body{
     margin-top:4px;
 }
 
-.head-underline{
-    display:block;
-    height:2px;
-    width:100%;
-    background-color:white;
-    margin-top: 4px;
-}
-
 
 input,textarea{
     border:  solid white;
