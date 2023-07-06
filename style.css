@@ -108,20 +108,29 @@ textarea::placeholder,input::placeholder,label,.head-text{
 }
 
 .form-btn{
-    display: flex;
-    justify-content:flex-end;
     margin-top: 25px;
+    background-color: red;
+    padding: 6px 10px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.5);
+    width:9rem;
+    border-radius:4px;
+    position: absolute;
+    right: 15px;
+    transition: transform .3s ease-in;
 }
 
 .form-btn button{
-    background-color: red;
+    background-color: transparent;
     color:white;
     font-size: 18px;
-    padding: 6px 10px;
     font-weight: 500;
     border: none;
-    border-radius:4px;
 }
+
+.form-btn:hover{
+    transform: rotate(10deg);
+    transition: .3s ease-out;
+    }
 
 .form-box input::placeholder{
     font-size: 12px;
