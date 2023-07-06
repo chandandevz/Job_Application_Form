@@ -66,7 +66,7 @@ textarea::placeholder,input::placeholder,label,.head-text{
 .form-box{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 10px;
+    margin-top: 25px;
     
 }
 
