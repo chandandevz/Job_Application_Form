@@ -110,7 +110,7 @@ textarea::placeholder,input::placeholder,label,.head-text{
 .form-btn{
     display: flex;
     justify-content:flex-end;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .form-btn button{
